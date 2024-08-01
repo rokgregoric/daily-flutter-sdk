@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no">
+  <meta name="description" content="API docs for the CallClient class from the daily_flutter library, for the Dart programming language.">
+  <title>CallClient class - daily_flutter library - Dart API</title>
+
+
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet">
+  
+  <link rel="stylesheet" href="../static-assets/github.css?v1">
+  <link rel="stylesheet" href="../static-assets/styles.css?v1">
+  <link rel="icon" href="../static-assets/favicon.png?v1">
+
+  
+</head>
+
+
+<body data-base-href="../" data-using-base-href="false" class="light-theme">
+
+<div id="overlay-under-drawer"></div>
+
+<header id="title">
+  <span id="sidenav-left-toggle" class="material-symbols-outlined" role="button" tabindex="0">menu</span>
+  <ol class="breadcrumbs gt-separated dark hidden-xs">
+    <li><a href="../index.html">daily_flutter</a></li>
+    <li><a href="../daily_flutter/daily_flutter-library.html">daily_flutter.dart</a></li>
+    <li class="self-crumb">CallClient class</li>
+  </ol>
+  <div class="self-name">CallClient</div>
+  <form class="search navbar-right" role="search">
+    <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+  <div class="toggle" id="theme-button" title="Toggle brightness">
+    <label for="theme">
+      <input type="checkbox" id="theme" value="light-theme">
+      <span id="dark-theme-button" class="material-symbols-outlined">
+        dark_mode
+      </span>
+      <span id="light-theme-button" class="material-symbols-outlined">
+        light_mode
+      </span>
+    </label>
+  </div>
+</header>
+<main>
+
+<div
+    id="dartdoc-main-content"
+    class="main-content"
+    data-above-sidebar="daily_flutter&#47;daily_flutter-library-sidebar.html"
+    data-below-sidebar="daily_flutter&#47;CallClient-class-sidebar.html">
+    <div>
+<h1><span class="kind-class">CallClient</span> class 
+ 
+</h1></div>
+
+    
+<section class="desc markdown">
+  <p>The main entry point for using <code>Daily</code>, <a href="../daily_flutter/CallClient-class.html">CallClient</a> is used to join a Daily room
+with configurable media inputs, as well as quality and bandwidth settings when publishing tracks.</p>
+<p>A <a href="../daily_flutter/CallClient-class.html">CallClient</a> instance is pre-configured with reasonable defaults for a high-quality video calling
+experience but can be further configured to fit different use cases.</p>
+</section>
+
+
+
+    
+    
+  <section
+      class="summary offset-anchor"
+      id="instance-properties">
+    <h2>Properties</h2>
+    <dl class="properties">
+        <dt id="activeSpeaker" class="property">
+  <span class="name"><a href="../daily_flutter/CallClient/activeSpeaker.html">activeSpeaker</a></span>
+  <span class="signature">&#8594; <a href="../daily_flutter/Participant-class.html">Participant</a>?</span>
+  
+
+</dt>
+<dd>
+  The current active speaker in this <a href="../daily_flutter/CallClient-class.html">CallClient</a>'s call.
+  <div class="features"><span class="feature">no setter</span></div>
+
+</dd>
+
+        <dt id="availableDevices" class="property">
+  <span class="name"><a href="../daily_flutter/CallClient/availableDevices.html">availableDevices</a></span>
+  <span class="signature">&#8594; <a href="../daily_flutter/Devices-class.html">Devices</a></span>
+  
+
+</dt>
+<dd>
+  The devices currently available to this <a href="../daily_flutter/CallClient-class.html">CallClient</a>.
+  <div class="features"><span class="feature">no setter</span></div>
+
+</dd>
+
+        <dt id="callConfig" class="property">
+  <span class="name"><a href="../daily_flutter/CallClient/callConfig.html">callConfig</a></span>
+  <span class="signature">&#8594; <a href="../daily_flutter/CallConfig-class.html">CallConfig</a>?</span>
+  
+
+</dt>
+<dd>
+  The current <a href="../daily_flutter/CallConfig-class.html">CallConfig</a>, if in a call.
+  <div class="features"><span class="feature">no setter</span></div>
+
+</dd>
+
+        <dt id="callState" class="property">
+  <span class="name"><a href="../daily_flutter/CallClient/callState.html">callState</a></span>
+  <span class="signature">&#8594; <a href="../daily_flutter/CallState.html">CallState</a></span>
+  
+
+</dt>
+<dd>
+  The current <a href="../daily_flutter/CallState.html">CallState</a>.
+  <div class="features"><span class="feature">no setter</span></div>
+
+</dd>
+
+        <dt id="events" class="property">
+  <span class="name"><a href="../daily_flutter/CallClient/events.html">events</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Stream-class.html">Stream</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../daily_flutter/Event-class.html">Event</a></span>&gt;</span></span>
+  
+
+</dt>
+<dd>
+  The stream of events from this <a href="../daily_flutter/CallClient-class.html">CallClient</a>
+  <div class="features"><span class="feature">no setter</span></div>
+
+</dd>
+
+        <dt id="hashCode" class="property inherited">
+  <span class="name"><a href="https://api.flutter.dev/flutter/dart-core/Object/hashCode.html">hashCode</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span>
+  
+
+</dt>
+<dd class="inherited">
+  The hash code for this object.
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="inputs" class="property">
+  <span class="name"><a href="../daily_flutter/CallClient/inputs.html">inputs</a></span>
+  <span class="signature">&#8594; <a href="../daily_flutter/InputSettings-class.html">InputSettings</a></span>
+  
+
+</dt>
+<dd>
+  The current input settings
+  <div class="features"><span class="feature">no setter</span></div>
+
+</dd>
+
+        <dt id="networkStats" class="property">
+  <span class="name"><a href="../daily_flutter/CallClient/networkStats.html">networkStats</a></span>
+  <span class="signature">&#8594; <a href="../daily_flutter/NetworkStats-class.html">NetworkStats</a>?</span>
+  
+
+</dt>
+<dd>
+  Returns the last reported network statistics.
+  <div class="features"><span class="feature">no setter</span></div>
+
+</dd>
+
+        <dt id="participantCounts" class="property">
+  <span class="name"><a href="../daily_flutter/CallClient/participantCounts.html">participantCounts</a></span>
+  <span class="signature">&#8594; <a href="../daily_flutter/ParticipantCounts-class.html">ParticipantCounts</a></span>
+  
+
+</dt>
+<dd>
+  The current participant counts in this <a href="../daily_flutter/CallClient-class.html">CallClient</a>'s call.
+  <div class="features"><span class="feature">no setter</span></div>
+
+</dd>
+
+        <dt id="participants" class="property">
+  <span class="name"><a href="../daily_flutter/CallClient/participants.html">participants</a></span>
+  <span class="signature">&#8594; <a href="../daily_flutter/Participants-class.html">Participants</a></span>
+  
+
+</dt>
+<dd>
+  The current participants in this <a href="../daily_flutter/CallClient-class.html">CallClient</a>'s call.
+  <div class="features"><span class="feature">no setter</span></div>
+
+</dd>
+
+        <dt id="publishing" class="property">
+  <span class="name"><a href="../daily_flutter/CallClient/publishing.html">publishing</a></span>
+  <span class="signature">&#8594; <a href="../daily_flutter/PublishingSettings-class.html">PublishingSettings</a></span>
+  
+
+</dt>
+<dd>
+  The current publishing settings.
+  <div class="features"><span class="feature">no setter</span></div>
+
+</dd>
+
+        <dt id="runtimeType" class="property inherited">
+  <span class="name"><a href="https://api.flutter.dev/flutter/dart-core/Object/runtimeType.html">runtimeType</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/Type-class.html">Type</a></span>
+  
+
+</dt>
+<dd class="inherited">
+  A representation of the runtime type of the object.
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="subscriptionProfiles" class="property">
+  <span class="name"><a href="../daily_flutter/CallClient/subscriptionProfiles.html">subscriptionProfiles</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/Map-class.html">Map</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../daily_flutter/SubscriptionProfile-class.html">SubscriptionProfile</a></span>, <span class="type-parameter"><a href="../daily_flutter/MediaSubscriptionSettings-class.html">MediaSubscriptionSettings</a></span>&gt;</span></span>
+  
+
+</dt>
+<dd>
+  Subscription settings for all profiles configured for this call. <a href="../daily_flutter/SubscriptionProfile/base-constant.html">SubscriptionProfile.base</a> is always present.
+  <div class="features"><span class="feature">no setter</span></div>
+
+</dd>
+
+        <dt id="subscriptions" class="property">
+  <span class="name"><a href="../daily_flutter/CallClient/subscriptions.html">subscriptions</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/Map-class.html">Map</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../daily_flutter/ParticipantId-class.html">ParticipantId</a></span>, <span class="type-parameter"><a href="../daily_flutter/SubscriptionSettings-class.html">SubscriptionSettings</a></span>&gt;</span></span>
+  
+
+</dt>
+<dd>
+  The current subscription settings.
+  <div class="features"><span class="feature">no setter</span></div>
+
+</dd>
+
+        <dt id="username" class="property">
+  <span class="name"><a href="../daily_flutter/CallClient/username.html">username</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span>
+  
+
+</dt>
+<dd>
+  Returns this <a href="../daily_flutter/CallClient-class.html">CallClient</a>'s username.
+  <div class="features"><span class="feature">no setter</span></div>
+
+</dd>
+
+    </dl>
+  </section>
+    
+  <section
+      class="summary offset-anchor"
+      id="instance-methods">
+    <h2>Methods</h2>
+    <dl class="callables">
+        <dt id="addLiveStreamingEndpoints" class="callable">
+  <span class="name"><a href="../daily_flutter/CallClient/addLiveStreamingEndpoints.html">addLiveStreamingEndpoints</a></span><span class="signature">(<wbr>{<span class="parameter" id="addLiveStreamingEndpoints-param-endpoints"><span>required</span> <span class="type-annotation"><a href="../daily_flutter/PreconfiguredLiveStreamEndpoints-class.html">PreconfiguredLiveStreamEndpoints</a></span> <span class="parameter-name">endpoints</span>, </span><span class="parameter" id="addLiveStreamingEndpoints-param-streamId"><span class="type-annotation"><a href="../daily_flutter/StreamId-class.html">StreamId</a>?</span> <span class="parameter-name">streamId</span>, </span><span class="parameter" id="addLiveStreamingEndpoints-param-forceNew"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a>?</span> <span class="parameter-name">forceNew</span></span>})
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter">void</span>&gt;</span></span>
+  </span>
+  
+
+</dt>
+<dd>
+  Adds additional endpoints to an ongoing live stream.
+  
+
+</dd>
+
+        <dt id="callConfigFor" class="callable">
+  <span class="name"><a href="../daily_flutter/CallClient/callConfigFor.html">callConfigFor</a></span><span class="signature">(<wbr>{<span class="parameter" id="callConfigFor-param-url"><span>required</span> <span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/Uri-class.html">Uri</a></span> <span class="parameter-name">url</span>, </span><span class="parameter" id="callConfigFor-param-token"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">token</span></span>})
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../daily_flutter/CallConfig-class.html">CallConfig</a></span>&gt;</span></span>
+  </span>
+  
+
+</dt>
+<dd>
+  Fetches the call configuration for the room at <code>url</code>.
+  
+
+</dd>
+
+        <dt id="dispose" class="callable">
+  <span class="name"><a href="../daily_flutter/CallClient/dispose.html">dispose</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter">void</span>&gt;</span></span>
+  </span>
+  
+
+</dt>
+<dd>
+  Tear down and clean up all resources associated with this <a href="../daily_flutter/CallClient-class.html">CallClient</a>.
+  
+
+</dd>
+
+        <dt id="ejectRemoteParticipants" class="callable">
+  <span class="name"><a href="../daily_flutter/CallClient/ejectRemoteParticipants.html">ejectRemoteParticipants</a></span><span class="signature">(<wbr>{<span class="parameter" id="ejectRemoteParticipants-param-ids"><span>required</span> <span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/List-class.html">List</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../daily_flutter/ParticipantId-class.html">ParticipantId</a></span>&gt;</span></span> <span class="parameter-name">ids</span></span>})
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter">void</span>&gt;</span></span>
+  </span>
+  
+
+</dt>
+<dd>
+  Eject remote participants.
+  
+
+</dd>
+
+        <dt id="join" class="callable">
+  <span class="name"><a href="../daily_flutter/CallClient/join.html">join</a></span><span class="signature">(<wbr>{<span class="parameter" id="join-param-url"><span>required</span> <span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/Uri-class.html">Uri</a></span> <span class="parameter-name">url</span>, </span><span class="parameter" id="join-param-clientSettings"><span class="type-annotation"><a href="../daily_flutter/ClientSettingsUpdate-class.html">ClientSettingsUpdate</a>?</span> <span class="parameter-name">clientSettings</span>, </span><span class="parameter" id="join-param-token"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">token</span></span>})
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../daily_flutter/CallJoinData-class.html">CallJoinData</a></span>&gt;</span></span>
+  </span>
+  
+
+</dt>
+<dd>
+  Joins a room, optionally with the settings from the given <a href="../daily_flutter/ClientSettingsUpdate-class.html">ClientSettingsUpdate</a>.
+  
+
+</dd>
+
+        <dt id="leave" class="callable">
+  <span class="name"><a href="../daily_flutter/CallClient/leave.html">leave</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter">void</span>&gt;</span></span>
+  </span>
+  
+
+</dt>
+<dd>
+  Leaves the <a href="../daily_flutter/CallClient-class.html">CallClient</a>'s current call, if there is one. Otherwise does nothing.
+  
+
+</dd>
+
+        <dt id="noSuchMethod" class="callable inherited">
+  <span class="name"><a href="https://api.flutter.dev/flutter/dart-core/Object/noSuchMethod.html">noSuchMethod</a></span><span class="signature">(<wbr><span class="parameter" id="noSuchMethod-param-invocation"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/Invocation-class.html">Invocation</a></span> <span class="parameter-name">invocation</span></span>)
+    <span class="returntype parameter">&#8594; dynamic</span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Invoked when a nonexistent method or property is accessed.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="removeLiveStreamingEndpoints" class="callable">
+  <span class="name"><a href="../daily_flutter/CallClient/removeLiveStreamingEndpoints.html">removeLiveStreamingEndpoints</a></span><span class="signature">(<wbr>{<span class="parameter" id="removeLiveStreamingEndpoints-param-endpoints"><span>required</span> <span class="type-annotation"><a href="../daily_flutter/PreconfiguredLiveStreamEndpoints-class.html">PreconfiguredLiveStreamEndpoints</a></span> <span class="parameter-name">endpoints</span>, </span><span class="parameter" id="removeLiveStreamingEndpoints-param-streamId"><span class="type-annotation"><a href="../daily_flutter/StreamId-class.html">StreamId</a>?</span> <span class="parameter-name">streamId</span></span>})
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter">void</span>&gt;</span></span>
+  </span>
+  
+
+</dt>
+<dd>
+  Updates the settings of an ongoing live stream.
+  
+
+</dd>
+
+        <dt id="sendAppMessage" class="callable">
+  <span class="name"><a href="../daily_flutter/CallClient/sendAppMessage.html">sendAppMessage</a></span><span class="signature">(<wbr><span class="parameter" id="sendAppMessage-param-data"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span> <span class="parameter-name">data</span>, </span><span class="parameter" id="sendAppMessage-param-recipient"><span class="type-annotation"><a href="../daily_flutter/ParticipantId-class.html">ParticipantId</a>?</span> <span class="parameter-name">recipient</span></span>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter">void</span>&gt;</span></span>
+  </span>
+  
+
+</dt>
+<dd>
+  Sends a custom app message, to be interpreted by recipients at their discretion.
+  
+
+</dd>
+
+        <dt id="setAudioDevice" class="callable">
+  <span class="name"><a href="../daily_flutter/CallClient/setAudioDevice.html">setAudioDevice</a></span><span class="signature">(<wbr>{<span class="parameter" id="setAudioDevice-param-deviceId"><span>required</span> <span class="type-annotation"><a href="../daily_flutter/DeviceId-class.html">DeviceId</a></span> <span class="parameter-name">deviceId</span></span>})
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter">void</span>&gt;</span></span>
+  </span>
+  
+
+</dt>
+<dd>
+  ////////////////////////////////////////////
+  
+
+</dd>
+
+        <dt id="setCameraFacingMode" class="callable">
+  <span class="name"><a href="../daily_flutter/CallClient/setCameraFacingMode.html">setCameraFacingMode</a></span><span class="signature">(<wbr>{<span class="parameter" id="setCameraFacingMode-param-facingMode"><span>required</span> <span class="type-annotation"><a href="../daily_flutter/MediaTrackFacingMode.html">MediaTrackFacingMode</a></span> <span class="parameter-name">facingMode</span></span>})
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter">void</span>&gt;</span></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="setInputsEnabled" class="callable">
+  <span class="name"><a href="../daily_flutter/CallClient/setInputsEnabled.html">setInputsEnabled</a></span><span class="signature">(<wbr>{<span class="parameter" id="setInputsEnabled-param-camera"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a>?</span> <span class="parameter-name">camera</span>, </span><span class="parameter" id="setInputsEnabled-param-microphone"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a>?</span> <span class="parameter-name">microphone</span></span>})
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter">void</span>&gt;</span></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="setIsPublishing" class="callable">
+  <span class="name"><a href="../daily_flutter/CallClient/setIsPublishing.html">setIsPublishing</a></span><span class="signature">(<wbr>{<span class="parameter" id="setIsPublishing-param-camera"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a>?</span> <span class="parameter-name">camera</span>, </span><span class="parameter" id="setIsPublishing-param-microphone"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a>?</span> <span class="parameter-name">microphone</span></span>})
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter">void</span>&gt;</span></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="setUsername" class="callable">
+  <span class="name"><a href="../daily_flutter/CallClient/setUsername.html">setUsername</a></span><span class="signature">(<wbr><span class="parameter" id="setUsername-param-username"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span> <span class="parameter-name">username</span></span>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter">void</span>&gt;</span></span>
+  </span>
+  
+
+</dt>
+<dd>
+  Sets this <a href="../daily_flutter/CallClient-class.html">CallClient</a>'s username.
+  
+
+</dd>
+
+        <dt id="startLiveStream" class="callable">
+  <span class="name"><a href="../daily_flutter/CallClient/startLiveStream.html">startLiveStream</a></span><span class="signature">(<wbr>{<span class="parameter" id="startLiveStream-param-endpoints"><span>required</span> <span class="type-annotation"><a href="../daily_flutter/LiveStreamEndpoints-class.html">LiveStreamEndpoints</a></span> <span class="parameter-name">endpoints</span>, </span><span class="parameter" id="startLiveStream-param-streamingSettings"><span class="type-annotation"><a href="../daily_flutter/StreamingSettings-class.html">StreamingSettings</a>?</span> <span class="parameter-name">streamingSettings</span>, </span><span class="parameter" id="startLiveStream-param-streamId"><span class="type-annotation"><a href="../daily_flutter/StreamId-class.html">StreamId</a>?</span> <span class="parameter-name">streamId</span>, </span><span class="parameter" id="startLiveStream-param-forceNew"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span> <span class="parameter-name">forceNew</span> = <span class="default-value">false</span></span>})
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../daily_flutter/StreamId-class.html">StreamId</a></span>&gt;</span></span>
+  </span>
+  
+
+</dt>
+<dd>
+  Starts a new live stream.
+  
+
+</dd>
+
+        <dt id="startRecording" class="callable">
+  <span class="name"><a href="../daily_flutter/CallClient/startRecording.html">startRecording</a></span><span class="signature">(<wbr>{<span class="parameter" id="startRecording-param-streamingSettings"><span class="type-annotation"><a href="../daily_flutter/StreamingSettings-class.html">StreamingSettings</a>?</span> <span class="parameter-name">streamingSettings</span>, </span><span class="parameter" id="startRecording-param-streamId"><span class="type-annotation"><a href="../daily_flutter/StreamId-class.html">StreamId</a>?</span> <span class="parameter-name">streamId</span>, </span><span class="parameter" id="startRecording-param-forceNew"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a>?</span> <span class="parameter-name">forceNew</span></span>})
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../daily_flutter/StreamId-class.html">StreamId</a></span>&gt;</span></span>
+  </span>
+  
+
+</dt>
+<dd>
+  Starts a new recording, if recording is enabled for the current room.
+  
+
+</dd>
+
+        <dt id="stopLiveStream" class="callable">
+  <span class="name"><a href="../daily_flutter/CallClient/stopLiveStream.html">stopLiveStream</a></span><span class="signature">(<wbr>{<span class="parameter" id="stopLiveStream-param-streamId"><span class="type-annotation"><a href="../daily_flutter/StreamId-class.html">StreamId</a>?</span> <span class="parameter-name">streamId</span></span>})
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter">void</span>&gt;</span></span>
+  </span>
+  
+
+</dt>
+<dd>
+  Stops an ongoing live stream.
+  
+
+</dd>
+
+        <dt id="stopRecording" class="callable">
+  <span class="name"><a href="../daily_flutter/CallClient/stopRecording.html">stopRecording</a></span><span class="signature">(<wbr>{<span class="parameter" id="stopRecording-param-streamId"><span class="type-annotation"><a href="../daily_flutter/StreamId-class.html">StreamId</a>?</span> <span class="parameter-name">streamId</span></span>})
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter">void</span>&gt;</span></span>
+  </span>
+  
+
+</dt>
+<dd>
+  Stops the specified recording.
+  
+
+</dd>
+
+        <dt id="toString" class="callable inherited">
+  <span class="name"><a href="https://api.flutter.dev/flutter/dart-core/Object/toString.html">toString</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  A string representation of this object.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="updateInputs" class="callable">
+  <span class="name"><a href="../daily_flutter/CallClient/updateInputs.html">updateInputs</a></span><span class="signature">(<wbr>{<span class="parameter" id="updateInputs-param-inputs"><span>required</span> <span class="type-annotation"><a href="../daily_flutter/InputSettingsUpdate-class.html">InputSettingsUpdate</a></span> <span class="parameter-name">inputs</span></span>})
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter">void</span>&gt;</span></span>
+  </span>
+  
+
+</dt>
+<dd>
+  Enable/disable and/or configure input devices, eg. camera and microphone, for this <a href="../daily_flutter/CallClient-class.html">CallClient</a>.
+  
+
+</dd>
+
+        <dt id="updateLiveStream" class="callable">
+  <span class="name"><a href="../daily_flutter/CallClient/updateLiveStream.html">updateLiveStream</a></span><span class="signature">(<wbr>{<span class="parameter" id="updateLiveStream-param-streamingSettings"><span>required</span> <span class="type-annotation"><a href="../daily_flutter/StreamingSettings-class.html">StreamingSettings</a></span> <span class="parameter-name">streamingSettings</span>, </span><span class="parameter" id="updateLiveStream-param-streamId"><span class="type-annotation"><a href="../daily_flutter/StreamId-class.html">StreamId</a>?</span> <span class="parameter-name">streamId</span></span>})
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter">void</span>&gt;</span></span>
+  </span>
+  
+
+</dt>
+<dd>
+  Removes endpoints from an ongoing live stream.
+  
+
+</dd>
+
+        <dt id="updatePublishing" class="callable">
+  <span class="name"><a href="../daily_flutter/CallClient/updatePublishing.html">updatePublishing</a></span><span class="signature">(<wbr>{<span class="parameter" id="updatePublishing-param-publishing"><span>required</span> <span class="type-annotation"><a href="../daily_flutter/PublishingSettingsUpdate-class.html">PublishingSettingsUpdate</a></span> <span class="parameter-name">publishing</span></span>})
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter">void</span>&gt;</span></span>
+  </span>
+  
+
+</dt>
+<dd>
+  Enable/disable publishing and/or configure quality or bandwidth for different media tracks,
+like the video and audio tracks.
+  
+
+</dd>
+
+        <dt id="updateRecording" class="callable">
+  <span class="name"><a href="../daily_flutter/CallClient/updateRecording.html">updateRecording</a></span><span class="signature">(<wbr>{<span class="parameter" id="updateRecording-param-streamingSettings"><span>required</span> <span class="type-annotation"><a href="../daily_flutter/StreamingSettingsUpdate-class.html">StreamingSettingsUpdate</a></span> <span class="parameter-name">streamingSettings</span>, </span><span class="parameter" id="updateRecording-param-streamId"><span class="type-annotation"><a href="../daily_flutter/StreamId-class.html">StreamId</a>?</span> <span class="parameter-name">streamId</span></span>})
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter">void</span>&gt;</span></span>
+  </span>
+  
+
+</dt>
+<dd>
+  Updates the settings for an ongoing recording.
+  
+
+</dd>
+
+        <dt id="updateRemoteParticipants" class="callable">
+  <span class="name"><a href="../daily_flutter/CallClient/updateRemoteParticipants.html">updateRemoteParticipants</a></span><span class="signature">(<wbr>{<span class="parameter" id="updateRemoteParticipants-param-updates"><span>required</span> <span class="type-annotation"><a href="../daily_flutter/RemoteParticipantSettingsUpdatesById-class.html">RemoteParticipantSettingsUpdatesById</a></span> <span class="parameter-name">updates</span></span>})
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter">void</span>&gt;</span></span>
+  </span>
+  
+
+</dt>
+<dd>
+  Modifies things about remote participants that you can control as a
+participant admin or meeting owner.
+  
+
+</dd>
+
+        <dt id="updateSubscriptionProfiles" class="callable">
+  <span class="name"><a href="../daily_flutter/CallClient/updateSubscriptionProfiles.html">updateSubscriptionProfiles</a></span><span class="signature">(<wbr>{<span class="parameter" id="updateSubscriptionProfiles-param-forProfiles"><span>required</span> <span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/Map-class.html">Map</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../daily_flutter/SubscriptionProfile-class.html">SubscriptionProfile</a></span>, <span class="type-parameter"><a href="../daily_flutter/MediaSubscriptionSettingsUpdate-class.html">MediaSubscriptionSettingsUpdate</a></span>&gt;</span></span> <span class="parameter-name">forProfiles</span></span>})
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter">void</span>&gt;</span></span>
+  </span>
+  
+
+</dt>
+<dd>
+  Configure subscription settings for a given profile.
+  
+
+</dd>
+
+        <dt id="updateSubscriptions" class="callable">
+  <span class="name"><a href="../daily_flutter/CallClient/updateSubscriptions.html">updateSubscriptions</a></span><span class="signature">(<wbr>{<span class="parameter" id="updateSubscriptions-param-forParticipants"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/Map-class.html">Map</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../daily_flutter/ParticipantId-class.html">ParticipantId</a></span>, <span class="type-parameter"><a href="../daily_flutter/SubscriptionSettingsUpdate-class.html">SubscriptionSettingsUpdate</a></span>&gt;</span>?</span> <span class="parameter-name">forParticipants</span>, </span><span class="parameter" id="updateSubscriptions-param-forParticipantsWithProfiles"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/Map-class.html">Map</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../daily_flutter/SubscriptionProfile-class.html">SubscriptionProfile</a></span>, <span class="type-parameter"><a href="../daily_flutter/SubscriptionSettingsUpdate-class.html">SubscriptionSettingsUpdate</a></span>&gt;</span>?</span> <span class="parameter-name">forParticipantsWithProfiles</span></span>})
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter">void</span>&gt;</span></span>
+  </span>
+  
+
+</dt>
+<dd>
+  Subscribe/unsubscribe to, and/or configure subscription settings for remote media tracks.
+  
+
+</dd>
+
+    </dl>
+  </section>
+    
+  <section
+      class="summary offset-anchor inherited"
+      id="operators">
+    <h2>Operators</h2>
+    <dl class="callables">
+        <dt id="operator ==" class="callable inherited">
+  <span class="name"><a href="https://api.flutter.dev/flutter/dart-core/Object/operator_equals.html">operator ==</a></span><span class="signature">(<wbr><span class="parameter" id="==-param-other"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/Object-class.html">Object</a></span> <span class="parameter-name">other</span></span>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  The equality operator.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+    </dl>
+  </section>
+    
+    
+  <section class="summary offset-anchor" id="static-methods">
+    <h2>Static Methods</h2>
+    <dl class="callables">
+        <dt id="create" class="callable">
+  <span class="name"><a href="../daily_flutter/CallClient/create.html">create</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../daily_flutter/CallClient-class.html">CallClient</a></span>&gt;</span></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+    </dl>
+  </section>
+    
+
+
+  </div> <!-- /.main-content -->
+
+  <div id="dartdoc-sidebar-left" class="sidebar sidebar-offcanvas-left">
+    <!-- The search input and breadcrumbs below are only responsively visible at low resolutions. -->
+<header id="header-search-sidebar" class="hidden-l">
+  <form class="search-sidebar" role="search">
+    <input type="text" id="search-sidebar" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+</header>
+
+<ol class="breadcrumbs gt-separated dark hidden-l" id="sidebar-nav">
+    <li><a href="../index.html">daily_flutter</a></li>
+    <li><a href="../daily_flutter/daily_flutter-library.html">daily_flutter</a></li>
+    <li class="self-crumb">CallClient class</li>
+</ol>
+
+
+    <h5>daily_flutter library</h5>
+    <div id="dartdoc-sidebar-left-content"></div>
+  </div>
+
+  <div id="dartdoc-sidebar-right" class="sidebar sidebar-offcanvas-right">
+  </div><!--/.sidebar-offcanvas-->
+
+</main>
+
+<footer>
+  <span class="no-break">
+    daily_flutter
+      0.20.0
+  </span>
+
+  
+</footer>
+
+
+
+<script src="../static-assets/highlight.pack.js?v1"></script>
+<script src="../static-assets/docs.dart.js"></script>
+
+
+
+</body>
+
+</html>
+

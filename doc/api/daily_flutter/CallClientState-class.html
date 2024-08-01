@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no">
+  <meta name="description" content="API docs for the CallClientState class from the daily_flutter library, for the Dart programming language.">
+  <title>CallClientState class - daily_flutter library - Dart API</title>
+
+
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet">
+  
+  <link rel="stylesheet" href="../static-assets/github.css?v1">
+  <link rel="stylesheet" href="../static-assets/styles.css?v1">
+  <link rel="icon" href="../static-assets/favicon.png?v1">
+
+  
+</head>
+
+
+<body data-base-href="../" data-using-base-href="false" class="light-theme">
+
+<div id="overlay-under-drawer"></div>
+
+<header id="title">
+  <span id="sidenav-left-toggle" class="material-symbols-outlined" role="button" tabindex="0">menu</span>
+  <ol class="breadcrumbs gt-separated dark hidden-xs">
+    <li><a href="../index.html">daily_flutter</a></li>
+    <li><a href="../daily_flutter/daily_flutter-library.html">daily_flutter.dart</a></li>
+    <li class="self-crumb">CallClientState class</li>
+  </ol>
+  <div class="self-name">CallClientState</div>
+  <form class="search navbar-right" role="search">
+    <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+  <div class="toggle" id="theme-button" title="Toggle brightness">
+    <label for="theme">
+      <input type="checkbox" id="theme" value="light-theme">
+      <span id="dark-theme-button" class="material-symbols-outlined">
+        dark_mode
+      </span>
+      <span id="light-theme-button" class="material-symbols-outlined">
+        light_mode
+      </span>
+    </label>
+  </div>
+</header>
+<main>
+
+<div
+    id="dartdoc-main-content"
+    class="main-content"
+    data-above-sidebar="daily_flutter&#47;daily_flutter-library-sidebar.html"
+    data-below-sidebar="daily_flutter&#47;CallClientState-class-sidebar.html">
+    <div>
+<h1><span class="kind-class">CallClientState</span> class 
+ 
+</h1></div>
+
+    
+<section class="desc markdown">
+  <p>A representation of a <a href="../daily_flutter/CallClient-class.html">CallClient</a>'s state for consumption in Widgets through a <a href="https://api.flutter.dev/flutter/widgets/BuildContext-class.html">BuildContext</a>.</p>
+<p>Note that the <a href="../daily_flutter/CallClient-class.html">CallClient</a>'s internal state may have been updated after this <a href="../daily_flutter/CallClientState-class.html">CallClientState</a> was instantiated. As
+such, the static accessors in this class may sometimes yield different values from the corresponding <a href="../daily_flutter/CallClient-class.html">CallClient</a>
+ones.</p>
+</section>
+
+
+    <section>
+      <dl class="dl-horizontal">
+        
+  <dt>Inheritance</dt>
+  <dd>
+    <ul class="gt-separated dark clazz-relationships">
+      <li><a href="https://api.flutter.dev/flutter/dart-core/Object-class.html">Object</a></li>
+        <li><a href="https://api.flutter.dev/flutter/foundation/DiagnosticableTree-class.html">DiagnosticableTree</a></li>
+        <li><a href="https://api.flutter.dev/flutter/widgets/Widget-class.html">Widget</a></li>
+        <li><a href="https://api.flutter.dev/flutter/widgets/ProxyWidget-class.html">ProxyWidget</a></li>
+        <li><a href="https://api.flutter.dev/flutter/widgets/InheritedWidget-class.html">InheritedWidget</a></li>
+        <li><a href="https://api.flutter.dev/flutter/widgets/InheritedModel-class.html">InheritedModel</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../daily_flutter/CallClientStateAspect.html">CallClientStateAspect</a></span>&gt;</span></li>
+      <li>CallClientState</li>
+    </ul>
+  </dd>
+
+        
+        
+
+
+
+        
+
+
+      </dl>
+    </section>
+
+    
+    
+  <section
+      class="summary offset-anchor"
+      id="instance-properties">
+    <h2>Properties</h2>
+    <dl class="properties">
+        <dt id="activeSpeaker" class="property">
+  <span class="name"><a href="../daily_flutter/CallClientState/activeSpeaker.html">activeSpeaker</a></span>
+  <span class="signature">&#8594; <a href="../daily_flutter/Participant-class.html">Participant</a>?</span>
+  
+
+</dt>
+<dd>
+  See <a href="../daily_flutter/CallClient/activeSpeaker.html">CallClient.activeSpeaker</a>.
+  <div class="features"><span class="feature">final</span></div>
+
+</dd>
+
+        <dt id="availableDevices" class="property">
+  <span class="name"><a href="../daily_flutter/CallClientState/availableDevices.html">availableDevices</a></span>
+  <span class="signature">&#8594; <a href="../daily_flutter/Devices-class.html">Devices</a></span>
+  
+
+</dt>
+<dd>
+  See <a href="../daily_flutter/CallClient/availableDevices.html">CallClient.availableDevices</a>.
+  <div class="features"><span class="feature">final</span></div>
+
+</dd>
+
+        <dt id="callClient" class="property">
+  <span class="name"><a href="../daily_flutter/CallClientState/callClient.html">callClient</a></span>
+  <span class="signature">&#8594; <a href="../daily_flutter/CallClient-class.html">CallClient</a></span>
+  
+
+</dt>
+<dd>
+  The <a href="../daily_flutter/CallClient-class.html">CallClient</a> that was the source of this state.
+  <div class="features"><span class="feature">final</span></div>
+
+</dd>
+
+        <dt id="callConfig" class="property">
+  <span class="name"><a href="../daily_flutter/CallClientState/callConfig.html">callConfig</a></span>
+  <span class="signature">&#8594; <a href="../daily_flutter/CallConfig-class.html">CallConfig</a>?</span>
+  
+
+</dt>
+<dd>
+  See <a href="../daily_flutter/CallClient/callConfig.html">CallClient.callConfig</a>.
+  <div class="features"><span class="feature">final</span></div>
+
+</dd>
+
+        <dt id="callState" class="property">
+  <span class="name"><a href="../daily_flutter/CallClientState/callState.html">callState</a></span>
+  <span class="signature">&#8594; <a href="../daily_flutter/CallState.html">CallState</a></span>
+  
+
+</dt>
+<dd>
+  See <a href="../daily_flutter/CallClient/callState.html">CallClient.callState</a>.
+  <div class="features"><span class="feature">final</span></div>
+
+</dd>
+
+        <dt id="child" class="property inherited">
+  <span class="name"><a href="https://api.flutter.dev/flutter/widgets/ProxyWidget/child.html">child</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/widgets/Widget-class.html">Widget</a></span>
+  
+
+</dt>
+<dd class="inherited">
+  The widget below this widget in the tree.
+  <div class="features"><span class="feature">final</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="hashCode" class="property inherited">
+  <span class="name"><a href="https://api.flutter.dev/flutter/widgets/Widget/hashCode.html">hashCode</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span>
+  
+
+</dt>
+<dd class="inherited">
+  The hash code for this object.
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="inputs" class="property">
+  <span class="name"><a href="../daily_flutter/CallClientState/inputs.html">inputs</a></span>
+  <span class="signature">&#8594; <a href="../daily_flutter/InputSettings-class.html">InputSettings</a></span>
+  
+
+</dt>
+<dd>
+  See <a href="../daily_flutter/CallClient/inputs.html">CallClient.inputs</a>.
+  <div class="features"><span class="feature">final</span></div>
+
+</dd>
+
+        <dt id="key" class="property inherited">
+  <span class="name"><a href="https://api.flutter.dev/flutter/widgets/Widget/key.html">key</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/foundation/Key-class.html">Key</a>?</span>
+  
+
+</dt>
+<dd class="inherited">
+  Controls how one widget replaces another widget in the tree.
+  <div class="features"><span class="feature">final</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="participantCounts" class="property">
+  <span class="name"><a href="../daily_flutter/CallClientState/participantCounts.html">participantCounts</a></span>
+  <span class="signature">&#8594; <a href="../daily_flutter/ParticipantCounts-class.html">ParticipantCounts</a></span>
+  
+
+</dt>
+<dd>
+  See <a href="../daily_flutter/CallClient/participantCounts.html">CallClient.participantCounts</a>.
+  <div class="features"><span class="feature">final</span></div>
+
+</dd>
+
+        <dt id="participants" class="property">
+  <span class="name"><a href="../daily_flutter/CallClientState/participants.html">participants</a></span>
+  <span class="signature">&#8594; <a href="../daily_flutter/Participants-class.html">Participants</a></span>
+  
+
+</dt>
+<dd>
+  See <a href="../daily_flutter/CallClient/participants.html">CallClient.participants</a>.
+  <div class="features"><span class="feature">final</span></div>
+
+</dd>
+
+        <dt id="publishing" class="property">
+  <span class="name"><a href="../daily_flutter/CallClientState/publishing.html">publishing</a></span>
+  <span class="signature">&#8594; <a href="../daily_flutter/PublishingSettings-class.html">PublishingSettings</a></span>
+  
+
+</dt>
+<dd>
+  See <a href="../daily_flutter/CallClient/publishing.html">CallClient.publishing</a>.
+  <div class="features"><span class="feature">final</span></div>
+
+</dd>
+
+        <dt id="runtimeType" class="property inherited">
+  <span class="name"><a href="https://api.flutter.dev/flutter/dart-core/Object/runtimeType.html">runtimeType</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/Type-class.html">Type</a></span>
+  
+
+</dt>
+<dd class="inherited">
+  A representation of the runtime type of the object.
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="subscriptionProfiles" class="property">
+  <span class="name"><a href="../daily_flutter/CallClientState/subscriptionProfiles.html">subscriptionProfiles</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/Map-class.html">Map</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../daily_flutter/SubscriptionProfile-class.html">SubscriptionProfile</a></span>, <span class="type-parameter"><a href="../daily_flutter/MediaSubscriptionSettings-class.html">MediaSubscriptionSettings</a></span>&gt;</span></span>
+  
+
+</dt>
+<dd>
+  See <a href="../daily_flutter/CallClient/subscriptionProfiles.html">CallClient.subscriptionProfiles</a>.
+  <div class="features"><span class="feature">final</span></div>
+
+</dd>
+
+        <dt id="subscriptions" class="property">
+  <span class="name"><a href="../daily_flutter/CallClientState/subscriptions.html">subscriptions</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/Map-class.html">Map</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../daily_flutter/ParticipantId-class.html">ParticipantId</a></span>, <span class="type-parameter"><a href="../daily_flutter/SubscriptionSettings-class.html">SubscriptionSettings</a></span>&gt;</span></span>
+  
+
+</dt>
+<dd>
+  See <a href="../daily_flutter/CallClient/subscriptions.html">CallClient.subscriptions</a>.
+  <div class="features"><span class="feature">final</span></div>
+
+</dd>
+
+        <dt id="username" class="property">
+  <span class="name"><a href="../daily_flutter/CallClientState/username.html">username</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span>
+  
+
+</dt>
+<dd>
+  See <a href="../daily_flutter/CallClient/username.html">CallClient.username</a>.
+  <div class="features"><span class="feature">no setter</span></div>
+
+</dd>
+
+    </dl>
+  </section>
+    
+  <section
+      class="summary offset-anchor"
+      id="instance-methods">
+    <h2>Methods</h2>
+    <dl class="callables">
+        <dt id="createElement" class="callable inherited">
+  <span class="name"><a href="https://api.flutter.dev/flutter/widgets/InheritedModel/createElement.html">createElement</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/widgets/InheritedModelElement-class.html">InheritedModelElement</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../daily_flutter/CallClientStateAspect.html">CallClientStateAspect</a></span>&gt;</span></span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Inflates this configuration to a concrete instance.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="debugDescribeChildren" class="callable inherited">
+  <span class="name"><a href="https://api.flutter.dev/flutter/foundation/DiagnosticableTree/debugDescribeChildren.html">debugDescribeChildren</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/List-class.html">List</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/foundation/DiagnosticsNode-class.html">DiagnosticsNode</a></span>&gt;</span></span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Returns a list of <code>DiagnosticsNode</code> objects describing this node's
+children.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="debugFillProperties" class="callable">
+  <span class="name"><a href="../daily_flutter/CallClientState/debugFillProperties.html">debugFillProperties</a></span><span class="signature">(<wbr><span class="parameter" id="debugFillProperties-param-properties"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/foundation/DiagnosticPropertiesBuilder-class.html">DiagnosticPropertiesBuilder</a></span> <span class="parameter-name">properties</span></span>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd>
+  Add additional properties associated with the node.
+  <div class="features"><span class="feature">override</span></div>
+
+</dd>
+
+        <dt id="isSupportedAspect" class="callable inherited">
+  <span class="name"><a href="https://api.flutter.dev/flutter/widgets/InheritedModel/isSupportedAspect.html">isSupportedAspect</a></span><span class="signature">(<wbr><span class="parameter" id="isSupportedAspect-param-aspect"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/Object-class.html">Object</a></span> <span class="parameter-name">aspect</span></span>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Returns true if this model supports the given <code>aspect</code>.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="noSuchMethod" class="callable inherited">
+  <span class="name"><a href="https://api.flutter.dev/flutter/dart-core/Object/noSuchMethod.html">noSuchMethod</a></span><span class="signature">(<wbr><span class="parameter" id="noSuchMethod-param-invocation"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/Invocation-class.html">Invocation</a></span> <span class="parameter-name">invocation</span></span>)
+    <span class="returntype parameter">&#8594; dynamic</span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Invoked when a nonexistent method or property is accessed.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="toDiagnosticsNode" class="callable inherited">
+  <span class="name"><a href="https://api.flutter.dev/flutter/foundation/DiagnosticableTree/toDiagnosticsNode.html">toDiagnosticsNode</a></span><span class="signature">(<wbr>{<span class="parameter" id="toDiagnosticsNode-param-name"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">name</span>, </span><span class="parameter" id="toDiagnosticsNode-param-style"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/foundation/DiagnosticsTreeStyle.html">DiagnosticsTreeStyle</a>?</span> <span class="parameter-name">style</span></span>})
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/foundation/DiagnosticsNode-class.html">DiagnosticsNode</a></span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Returns a debug representation of the object that is used by debugging
+tools and by <a href="https://api.flutter.dev/flutter/foundation/DiagnosticsNode/toStringDeep.html">DiagnosticsNode.toStringDeep</a>.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="toString" class="callable inherited">
+  <span class="name"><a href="https://api.flutter.dev/flutter/foundation/Diagnosticable/toString.html">toString</a></span><span class="signature">(<wbr>{<span class="parameter" id="toString-param-minLevel"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/foundation/DiagnosticLevel.html">DiagnosticLevel</a></span> <span class="parameter-name">minLevel</span> = <span class="default-value">DiagnosticLevel.info</span></span>})
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  A string representation of this object.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="toStringDeep" class="callable inherited">
+  <span class="name"><a href="https://api.flutter.dev/flutter/foundation/DiagnosticableTree/toStringDeep.html">toStringDeep</a></span><span class="signature">(<wbr>{<span class="parameter" id="toStringDeep-param-prefixLineOne"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span> <span class="parameter-name">prefixLineOne</span> = <span class="default-value">&#39;&#39;</span>, </span><span class="parameter" id="toStringDeep-param-prefixOtherLines"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">prefixOtherLines</span>, </span><span class="parameter" id="toStringDeep-param-minLevel"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/foundation/DiagnosticLevel.html">DiagnosticLevel</a></span> <span class="parameter-name">minLevel</span> = <span class="default-value">DiagnosticLevel.debug</span></span>})
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Returns a string representation of this node and its descendants.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="toStringShallow" class="callable inherited">
+  <span class="name"><a href="https://api.flutter.dev/flutter/foundation/DiagnosticableTree/toStringShallow.html">toStringShallow</a></span><span class="signature">(<wbr>{<span class="parameter" id="toStringShallow-param-joiner"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span> <span class="parameter-name">joiner</span> = <span class="default-value">&#39;, &#39;</span>, </span><span class="parameter" id="toStringShallow-param-minLevel"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/foundation/DiagnosticLevel.html">DiagnosticLevel</a></span> <span class="parameter-name">minLevel</span> = <span class="default-value">DiagnosticLevel.debug</span></span>})
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Returns a one-line detailed description of the object.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="toStringShort" class="callable inherited">
+  <span class="name"><a href="https://api.flutter.dev/flutter/widgets/Widget/toStringShort.html">toStringShort</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  A short, textual description of this widget.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="updateShouldNotify" class="callable">
+  <span class="name"><a href="../daily_flutter/CallClientState/updateShouldNotify.html">updateShouldNotify</a></span><span class="signature">(<wbr><span class="parameter" id="updateShouldNotify-param-oldWidget"><span>covariant</span> <span class="type-annotation"><a href="../daily_flutter/CallClientState-class.html">CallClientState</a></span> <span class="parameter-name">oldWidget</span></span>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  Whether the framework should notify widgets that inherit from this widget.
+  <div class="features"><span class="feature">override</span></div>
+
+</dd>
+
+        <dt id="updateShouldNotifyDependent" class="callable">
+  <span class="name"><a href="../daily_flutter/CallClientState/updateShouldNotifyDependent.html">updateShouldNotifyDependent</a></span><span class="signature">(<wbr><span class="parameter" id="updateShouldNotifyDependent-param-oldWidget"><span>covariant</span> <span class="type-annotation"><a href="../daily_flutter/CallClientState-class.html">CallClientState</a></span> <span class="parameter-name">oldWidget</span>, </span><span class="parameter" id="updateShouldNotifyDependent-param-dependencies"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/Set-class.html">Set</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../daily_flutter/CallClientStateAspect.html">CallClientStateAspect</a></span>&gt;</span></span> <span class="parameter-name">dependencies</span></span>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  Return true if the changes between this model and <code>oldWidget</code> match any
+of the <code>dependencies</code>.
+  <div class="features"><span class="feature">override</span></div>
+
+</dd>
+
+    </dl>
+  </section>
+    
+  <section
+      class="summary offset-anchor inherited"
+      id="operators">
+    <h2>Operators</h2>
+    <dl class="callables">
+        <dt id="operator ==" class="callable inherited">
+  <span class="name"><a href="https://api.flutter.dev/flutter/widgets/Widget/operator_equals.html">operator ==</a></span><span class="signature">(<wbr><span class="parameter" id="==-param-other"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/Object-class.html">Object</a></span> <span class="parameter-name">other</span></span>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  The equality operator.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+    </dl>
+  </section>
+    
+    
+  <section class="summary offset-anchor" id="static-methods">
+    <h2>Static Methods</h2>
+    <dl class="callables">
+        <dt id="activeSpeakerOf" class="callable">
+  <span class="name"><a href="../daily_flutter/CallClientState/activeSpeakerOf.html">activeSpeakerOf</a></span><span class="signature">(<wbr><span class="parameter" id="activeSpeakerOf-param-context"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/widgets/BuildContext-class.html">BuildContext</a></span> <span class="parameter-name">context</span></span>)
+    <span class="returntype parameter">&#8594; <a href="../daily_flutter/Participant-class.html">Participant</a>?</span>
+  </span>
+  
+
+</dt>
+<dd>
+  See <a href="../daily_flutter/CallClient/activeSpeaker.html">CallClient.activeSpeaker</a>.
+  
+
+</dd>
+
+        <dt id="availableDevicesOf" class="callable">
+  <span class="name"><a href="../daily_flutter/CallClientState/availableDevicesOf.html">availableDevicesOf</a></span><span class="signature">(<wbr><span class="parameter" id="availableDevicesOf-param-context"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/widgets/BuildContext-class.html">BuildContext</a></span> <span class="parameter-name">context</span></span>)
+    <span class="returntype parameter">&#8594; <a href="../daily_flutter/Devices-class.html">Devices</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  See <a href="../daily_flutter/CallClient/availableDevices.html">CallClient.availableDevices</a>.
+  
+
+</dd>
+
+        <dt id="callConfigOf" class="callable">
+  <span class="name"><a href="../daily_flutter/CallClientState/callConfigOf.html">callConfigOf</a></span><span class="signature">(<wbr><span class="parameter" id="callConfigOf-param-context"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/widgets/BuildContext-class.html">BuildContext</a></span> <span class="parameter-name">context</span></span>)
+    <span class="returntype parameter">&#8594; <a href="../daily_flutter/CallConfig-class.html">CallConfig</a>?</span>
+  </span>
+  
+
+</dt>
+<dd>
+  See <a href="../daily_flutter/CallClient/callConfig.html">CallClient.callConfig</a>.
+  
+
+</dd>
+
+        <dt id="callStateOf" class="callable">
+  <span class="name"><a href="../daily_flutter/CallClientState/callStateOf.html">callStateOf</a></span><span class="signature">(<wbr><span class="parameter" id="callStateOf-param-context"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/widgets/BuildContext-class.html">BuildContext</a></span> <span class="parameter-name">context</span></span>)
+    <span class="returntype parameter">&#8594; <a href="../daily_flutter/CallState.html">CallState</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  See <a href="../daily_flutter/CallClient/callState.html">CallClient.callState</a>.
+  
+
+</dd>
+
+        <dt id="inputsOf" class="callable">
+  <span class="name"><a href="../daily_flutter/CallClientState/inputsOf.html">inputsOf</a></span><span class="signature">(<wbr><span class="parameter" id="inputsOf-param-context"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/widgets/BuildContext-class.html">BuildContext</a></span> <span class="parameter-name">context</span></span>)
+    <span class="returntype parameter">&#8594; <a href="../daily_flutter/InputSettings-class.html">InputSettings</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  See <a href="../daily_flutter/CallClient/inputs.html">CallClient.inputs</a>.
+  
+
+</dd>
+
+        <dt id="maybeActiveSpeakerOf" class="callable">
+  <span class="name"><a href="../daily_flutter/CallClientState/maybeActiveSpeakerOf.html">maybeActiveSpeakerOf</a></span><span class="signature">(<wbr><span class="parameter" id="maybeActiveSpeakerOf-param-context"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/widgets/BuildContext-class.html">BuildContext</a></span> <span class="parameter-name">context</span></span>)
+    <span class="returntype parameter">&#8594; <a href="../daily_flutter/Participant-class.html">Participant</a>?</span>
+  </span>
+  
+
+</dt>
+<dd>
+  See <a href="../daily_flutter/CallClient/activeSpeaker.html">CallClient.activeSpeaker</a>.
+  
+
+</dd>
+
+        <dt id="maybeAvailableDevicesOf" class="callable">
+  <span class="name"><a href="../daily_flutter/CallClientState/maybeAvailableDevicesOf.html">maybeAvailableDevicesOf</a></span><span class="signature">(<wbr><span class="parameter" id="maybeAvailableDevicesOf-param-context"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/widgets/BuildContext-class.html">BuildContext</a></span> <span class="parameter-name">context</span></span>)
+    <span class="returntype parameter">&#8594; <a href="../daily_flutter/Devices-class.html">Devices</a>?</span>
+  </span>
+  
+
+</dt>
+<dd>
+  See <a href="../daily_flutter/CallClient/availableDevices.html">CallClient.availableDevices</a>.
+  
+
+</dd>
+
+        <dt id="maybeCallConfigOf" class="callable">
+  <span class="name"><a href="../daily_flutter/CallClientState/maybeCallConfigOf.html">maybeCallConfigOf</a></span><span class="signature">(<wbr><span class="parameter" id="maybeCallConfigOf-param-context"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/widgets/BuildContext-class.html">BuildContext</a></span> <span class="parameter-name">context</span></span>)
+    <span class="returntype parameter">&#8594; <a href="../daily_flutter/CallConfig-class.html">CallConfig</a>?</span>
+  </span>
+  
+
+</dt>
+<dd>
+  See <a href="../daily_flutter/CallClient/callConfig.html">CallClient.callConfig</a>.
+  
+
+</dd>
+
+        <dt id="maybeCallStateOf" class="callable">
+  <span class="name"><a href="../daily_flutter/CallClientState/maybeCallStateOf.html">maybeCallStateOf</a></span><span class="signature">(<wbr><span class="parameter" id="maybeCallStateOf-param-context"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/widgets/BuildContext-class.html">BuildContext</a></span> <span class="parameter-name">context</span></span>)
+    <span class="returntype parameter">&#8594; <a href="../daily_flutter/CallState.html">CallState</a>?</span>
+  </span>
+  
+
+</dt>
+<dd>
+  See <a href="../daily_flutter/CallClient/callState.html">CallClient.callState</a>.
+  
+
+</dd>
+
+        <dt id="maybeInputsOf" class="callable">
+  <span class="name"><a href="../daily_flutter/CallClientState/maybeInputsOf.html">maybeInputsOf</a></span><span class="signature">(<wbr><span class="parameter" id="maybeInputsOf-param-context"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/widgets/BuildContext-class.html">BuildContext</a></span> <span class="parameter-name">context</span></span>)
+    <span class="returntype parameter">&#8594; <a href="../daily_flutter/InputSettings-class.html">InputSettings</a>?</span>
+  </span>
+  
+
+</dt>
+<dd>
+  See <a href="../daily_flutter/CallClient/inputs.html">CallClient.inputs</a>.
+  
+
+</dd>
+
+        <dt id="maybeOf" class="callable">
+  <span class="name"><a href="../daily_flutter/CallClientState/maybeOf.html">maybeOf</a></span><span class="signature">(<wbr><span class="parameter" id="maybeOf-param-context"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/widgets/BuildContext-class.html">BuildContext</a></span> <span class="parameter-name">context</span>, [</span><span class="parameter" id="maybeOf-param-aspect"><span class="type-annotation"><a href="../daily_flutter/CallClientStateAspect.html">CallClientStateAspect</a>?</span> <span class="parameter-name">aspect</span></span>])
+    <span class="returntype parameter">&#8594; <a href="../daily_flutter/CallClientState-class.html">CallClientState</a>?</span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="maybeParticipantCountsOf" class="callable">
+  <span class="name"><a href="../daily_flutter/CallClientState/maybeParticipantCountsOf.html">maybeParticipantCountsOf</a></span><span class="signature">(<wbr><span class="parameter" id="maybeParticipantCountsOf-param-context"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/widgets/BuildContext-class.html">BuildContext</a></span> <span class="parameter-name">context</span></span>)
+    <span class="returntype parameter">&#8594; <a href="../daily_flutter/ParticipantCounts-class.html">ParticipantCounts</a>?</span>
+  </span>
+  
+
+</dt>
+<dd>
+  See <a href="../daily_flutter/CallClient/participantCounts.html">CallClient.participantCounts</a>.
+  
+
+</dd>
+
+        <dt id="maybeParticipantsOf" class="callable">
+  <span class="name"><a href="../daily_flutter/CallClientState/maybeParticipantsOf.html">maybeParticipantsOf</a></span><span class="signature">(<wbr><span class="parameter" id="maybeParticipantsOf-param-context"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/widgets/BuildContext-class.html">BuildContext</a></span> <span class="parameter-name">context</span></span>)
+    <span class="returntype parameter">&#8594; <a href="../daily_flutter/Participants-class.html">Participants</a>?</span>
+  </span>
+  
+
+</dt>
+<dd>
+  See <a href="../daily_flutter/CallClient/participants.html">CallClient.participants</a>.
+  
+
+</dd>
+
+        <dt id="maybePublishingOf" class="callable">
+  <span class="name"><a href="../daily_flutter/CallClientState/maybePublishingOf.html">maybePublishingOf</a></span><span class="signature">(<wbr><span class="parameter" id="maybePublishingOf-param-context"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/widgets/BuildContext-class.html">BuildContext</a></span> <span class="parameter-name">context</span></span>)
+    <span class="returntype parameter">&#8594; <a href="../daily_flutter/PublishingSettings-class.html">PublishingSettings</a>?</span>
+  </span>
+  
+
+</dt>
+<dd>
+  See <a href="../daily_flutter/CallClient/publishing.html">CallClient.publishing</a>.
+  
+
+</dd>
+
+        <dt id="maybeSubscriptionProfilesOf" class="callable">
+  <span class="name"><a href="../daily_flutter/CallClientState/maybeSubscriptionProfilesOf.html">maybeSubscriptionProfilesOf</a></span><span class="signature">(<wbr><span class="parameter" id="maybeSubscriptionProfilesOf-param-context"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/widgets/BuildContext-class.html">BuildContext</a></span> <span class="parameter-name">context</span></span>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/Map-class.html">Map</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../daily_flutter/SubscriptionProfile-class.html">SubscriptionProfile</a></span>, <span class="type-parameter"><a href="../daily_flutter/MediaSubscriptionSettings-class.html">MediaSubscriptionSettings</a></span>&gt;</span>?</span>
+  </span>
+  
+
+</dt>
+<dd>
+  See <a href="../daily_flutter/CallClient/subscriptionProfiles.html">CallClient.subscriptionProfiles</a>.
+  
+
+</dd>
+
+        <dt id="maybeSubscriptionsOf" class="callable">
+  <span class="name"><a href="../daily_flutter/CallClientState/maybeSubscriptionsOf.html">maybeSubscriptionsOf</a></span><span class="signature">(<wbr><span class="parameter" id="maybeSubscriptionsOf-param-context"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/widgets/BuildContext-class.html">BuildContext</a></span> <span class="parameter-name">context</span></span>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/Map-class.html">Map</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../daily_flutter/ParticipantId-class.html">ParticipantId</a></span>, <span class="type-parameter"><a href="../daily_flutter/SubscriptionSettings-class.html">SubscriptionSettings</a></span>&gt;</span>?</span>
+  </span>
+  
+
+</dt>
+<dd>
+  See <a href="../daily_flutter/CallClient/subscriptions.html">CallClient.subscriptions</a>.
+  
+
+</dd>
+
+        <dt id="maybeUsernameOf" class="callable">
+  <span class="name"><a href="../daily_flutter/CallClientState/maybeUsernameOf.html">maybeUsernameOf</a></span><span class="signature">(<wbr><span class="parameter" id="maybeUsernameOf-param-context"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/widgets/BuildContext-class.html">BuildContext</a></span> <span class="parameter-name">context</span></span>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span>
+  </span>
+  
+
+</dt>
+<dd>
+  See <a href="../daily_flutter/CallClient/username.html">CallClient.username</a>.
+  
+
+</dd>
+
+        <dt id="of" class="callable">
+  <span class="name"><a href="../daily_flutter/CallClientState/of.html">of</a></span><span class="signature">(<wbr><span class="parameter" id="of-param-context"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/widgets/BuildContext-class.html">BuildContext</a></span> <span class="parameter-name">context</span>, [</span><span class="parameter" id="of-param-aspect"><span class="type-annotation"><a href="../daily_flutter/CallClientStateAspect.html">CallClientStateAspect</a>?</span> <span class="parameter-name">aspect</span></span>])
+    <span class="returntype parameter">&#8594; <a href="../daily_flutter/CallClientState-class.html">CallClientState</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="participantCountsOf" class="callable">
+  <span class="name"><a href="../daily_flutter/CallClientState/participantCountsOf.html">participantCountsOf</a></span><span class="signature">(<wbr><span class="parameter" id="participantCountsOf-param-context"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/widgets/BuildContext-class.html">BuildContext</a></span> <span class="parameter-name">context</span></span>)
+    <span class="returntype parameter">&#8594; <a href="../daily_flutter/ParticipantCounts-class.html">ParticipantCounts</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  See <a href="../daily_flutter/CallClient/participantCounts.html">CallClient.participantCounts</a>.
+  
+
+</dd>
+
+        <dt id="participantsOf" class="callable">
+  <span class="name"><a href="../daily_flutter/CallClientState/participantsOf.html">participantsOf</a></span><span class="signature">(<wbr><span class="parameter" id="participantsOf-param-context"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/widgets/BuildContext-class.html">BuildContext</a></span> <span class="parameter-name">context</span></span>)
+    <span class="returntype parameter">&#8594; <a href="../daily_flutter/Participants-class.html">Participants</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  See <a href="../daily_flutter/CallClient/participants.html">CallClient.participants</a>.
+  
+
+</dd>
+
+        <dt id="publishingOf" class="callable">
+  <span class="name"><a href="../daily_flutter/CallClientState/publishingOf.html">publishingOf</a></span><span class="signature">(<wbr><span class="parameter" id="publishingOf-param-context"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/widgets/BuildContext-class.html">BuildContext</a></span> <span class="parameter-name">context</span></span>)
+    <span class="returntype parameter">&#8594; <a href="../daily_flutter/PublishingSettings-class.html">PublishingSettings</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  See <a href="../daily_flutter/CallClient/publishing.html">CallClient.publishing</a>.
+  
+
+</dd>
+
+        <dt id="subscriptionProfilesOf" class="callable">
+  <span class="name"><a href="../daily_flutter/CallClientState/subscriptionProfilesOf.html">subscriptionProfilesOf</a></span><span class="signature">(<wbr><span class="parameter" id="subscriptionProfilesOf-param-context"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/widgets/BuildContext-class.html">BuildContext</a></span> <span class="parameter-name">context</span></span>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/Map-class.html">Map</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../daily_flutter/SubscriptionProfile-class.html">SubscriptionProfile</a></span>, <span class="type-parameter"><a href="../daily_flutter/MediaSubscriptionSettings-class.html">MediaSubscriptionSettings</a></span>&gt;</span></span>
+  </span>
+  
+
+</dt>
+<dd>
+  See <a href="../daily_flutter/CallClient/subscriptionProfiles.html">CallClient.subscriptionProfiles</a>.
+  
+
+</dd>
+
+        <dt id="subscriptionsOf" class="callable">
+  <span class="name"><a href="../daily_flutter/CallClientState/subscriptionsOf.html">subscriptionsOf</a></span><span class="signature">(<wbr><span class="parameter" id="subscriptionsOf-param-context"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/widgets/BuildContext-class.html">BuildContext</a></span> <span class="parameter-name">context</span></span>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/Map-class.html">Map</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../daily_flutter/ParticipantId-class.html">ParticipantId</a></span>, <span class="type-parameter"><a href="../daily_flutter/SubscriptionSettings-class.html">SubscriptionSettings</a></span>&gt;</span></span>
+  </span>
+  
+
+</dt>
+<dd>
+  See <a href="../daily_flutter/CallClient/subscriptions.html">CallClient.subscriptions</a>.
+  
+
+</dd>
+
+        <dt id="usernameOf" class="callable">
+  <span class="name"><a href="../daily_flutter/CallClientState/usernameOf.html">usernameOf</a></span><span class="signature">(<wbr><span class="parameter" id="usernameOf-param-context"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/widgets/BuildContext-class.html">BuildContext</a></span> <span class="parameter-name">context</span></span>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span>
+  </span>
+  
+
+</dt>
+<dd>
+  See <a href="../daily_flutter/CallClient/username.html">CallClient.username</a>.
+  
+
+</dd>
+
+    </dl>
+  </section>
+    
+
+
+  </div> <!-- /.main-content -->
+
+  <div id="dartdoc-sidebar-left" class="sidebar sidebar-offcanvas-left">
+    <!-- The search input and breadcrumbs below are only responsively visible at low resolutions. -->
+<header id="header-search-sidebar" class="hidden-l">
+  <form class="search-sidebar" role="search">
+    <input type="text" id="search-sidebar" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+</header>
+
+<ol class="breadcrumbs gt-separated dark hidden-l" id="sidebar-nav">
+    <li><a href="../index.html">daily_flutter</a></li>
+    <li><a href="../daily_flutter/daily_flutter-library.html">daily_flutter</a></li>
+    <li class="self-crumb">CallClientState class</li>
+</ol>
+
+
+    <h5>daily_flutter library</h5>
+    <div id="dartdoc-sidebar-left-content"></div>
+  </div>
+
+  <div id="dartdoc-sidebar-right" class="sidebar sidebar-offcanvas-right">
+  </div><!--/.sidebar-offcanvas-->
+
+</main>
+
+<footer>
+  <span class="no-break">
+    daily_flutter
+      0.20.0
+  </span>
+
+  
+</footer>
+
+
+
+<script src="../static-assets/highlight.pack.js?v1"></script>
+<script src="../static-assets/docs.dart.js"></script>
+
+
+
+</body>
+
+</html>
+

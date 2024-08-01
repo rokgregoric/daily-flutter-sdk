@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no">
+  <meta name="description" content="API docs for the updateSubscriptions method from the CallClient class, for the Dart programming language.">
+  <title>updateSubscriptions method - CallClient class - daily_flutter library - Dart API</title>
+
+
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet">
+  
+  <link rel="stylesheet" href="../../static-assets/github.css?v1">
+  <link rel="stylesheet" href="../../static-assets/styles.css?v1">
+  <link rel="icon" href="../../static-assets/favicon.png?v1">
+
+  
+</head>
+
+
+<body data-base-href="../../" data-using-base-href="false" class="light-theme">
+
+<div id="overlay-under-drawer"></div>
+
+<header id="title">
+  <span id="sidenav-left-toggle" class="material-symbols-outlined" role="button" tabindex="0">menu</span>
+  <ol class="breadcrumbs gt-separated dark hidden-xs">
+    <li><a href="../../index.html">daily_flutter</a></li>
+    <li><a href="../../daily_flutter/daily_flutter-library.html">daily_flutter.dart</a></li>
+    <li><a href="../../daily_flutter/CallClient-class.html">CallClient</a></li>
+    <li class="self-crumb">updateSubscriptions method</li>
+  </ol>
+  <div class="self-name">updateSubscriptions</div>
+  <form class="search navbar-right" role="search">
+    <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+  <div class="toggle" id="theme-button" title="Toggle brightness">
+    <label for="theme">
+      <input type="checkbox" id="theme" value="light-theme">
+      <span id="dark-theme-button" class="material-symbols-outlined">
+        dark_mode
+      </span>
+      <span id="light-theme-button" class="material-symbols-outlined">
+        light_mode
+      </span>
+    </label>
+  </div>
+</header>
+<main>
+
+<div
+    id="dartdoc-main-content"
+    class="main-content"
+    data-above-sidebar="daily_flutter&#47;CallClient-class-sidebar.html"
+    data-below-sidebar="">
+    <div>
+<h1><span class="kind-method">updateSubscriptions</span> method 
+</h1></div>
+
+    <section class="multi-line-signature">
+      
+
+<span class="returntype"><a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter">void</span>&gt;</span></span>
+<span class="name ">updateSubscriptions</span>(<wbr>{<ol class="parameter-list"> <li><span class="parameter" id="updateSubscriptions-param-forParticipants"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/Map-class.html">Map</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../../daily_flutter/ParticipantId-class.html">ParticipantId</a></span>, <span class="type-parameter"><a href="../../daily_flutter/SubscriptionSettingsUpdate-class.html">SubscriptionSettingsUpdate</a></span>&gt;</span>?</span> <span class="parameter-name">forParticipants</span>, </span></li>
+<li><span class="parameter" id="updateSubscriptions-param-forParticipantsWithProfiles"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/Map-class.html">Map</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../../daily_flutter/SubscriptionProfile-class.html">SubscriptionProfile</a></span>, <span class="type-parameter"><a href="../../daily_flutter/SubscriptionSettingsUpdate-class.html">SubscriptionSettingsUpdate</a></span>&gt;</span>?</span> <span class="parameter-name">forParticipantsWithProfiles</span>, </span></li>
+</ol>})
+
+      
+
+    </section>
+    
+<section class="desc markdown">
+  <p>Subscribe/unsubscribe to, and/or configure subscription settings for remote media tracks.</p>
+<p>Settings in <code>forParticipantsWithProfiles</code> apply to existing participants in the current call that are configured
+with each of those profiles, but do not update the profile itself. i.e., the settings are not applied to future
+participants configured with the profile.</p>
+<p>If settings are given both an individual participant and for a profile that participant is configured with, the
+individual settings take precedence.</p>
+</section>
+
+
+    
+<section class="summary source-code" id="source">
+  <h2><span>Implementation</span></h2>
+  <pre class="language-dart"><code class="language-dart">Future&lt;void&gt; updateSubscriptions({
+  Map&lt;ParticipantId, SubscriptionSettingsUpdate&gt;? forParticipants,
+  Map&lt;SubscriptionProfile, SubscriptionSettingsUpdate&gt;? forParticipantsWithProfiles,
+}) =&gt;
+    _platformBridge.updateSubscriptions(_native, forParticipants, forParticipantsWithProfiles);</code></pre>
+</section>
+
+
+  </div> <!-- /.main-content -->
+
+  <div id="dartdoc-sidebar-left" class="sidebar sidebar-offcanvas-left">
+    <!-- The search input and breadcrumbs below are only responsively visible at low resolutions. -->
+<header id="header-search-sidebar" class="hidden-l">
+  <form class="search-sidebar" role="search">
+    <input type="text" id="search-sidebar" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+</header>
+
+<ol class="breadcrumbs gt-separated dark hidden-l" id="sidebar-nav">
+    <li><a href="../../index.html">daily_flutter</a></li>
+    <li><a href="../../daily_flutter/daily_flutter-library.html">daily_flutter</a></li>
+    <li><a href="../../daily_flutter/CallClient-class.html">CallClient</a></li>
+    <li class="self-crumb">updateSubscriptions method</li>
+</ol>
+
+
+    <h5>CallClient class</h5>
+    <div id="dartdoc-sidebar-left-content"></div>
+  </div><!--/.sidebar-offcanvas-->
+
+  <div id="dartdoc-sidebar-right" class="sidebar sidebar-offcanvas-right">
+</div><!--/.sidebar-offcanvas-->
+
+</main>
+
+<footer>
+  <span class="no-break">
+    daily_flutter
+      0.20.0
+  </span>
+
+  
+</footer>
+
+
+
+<script src="../../static-assets/highlight.pack.js?v1"></script>
+<script src="../../static-assets/docs.dart.js"></script>
+
+
+
+</body>
+
+</html>
+
