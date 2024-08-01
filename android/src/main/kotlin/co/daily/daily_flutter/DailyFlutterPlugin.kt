@@ -132,8 +132,10 @@ class DailyFlutterPlugin : FlutterPlugin, MethodCallHandler, ActivityAware, Defa
   override fun onDetachedFromEngine(binding: FlutterPlugin.FlutterPluginBinding) {
     reset()
     audioManager.dispose()
-    rootEglBase.release()
-    surfaceTextureHelper.dispose()
+    if (videoCapturer != null) {
+      rootEglBase.release()
+      surfaceTextureHelper.dispose()
+    }
     methodChannel.setMethodCallHandler(null)
     eventChannel.setStreamHandler(null)
     eventSink = null
